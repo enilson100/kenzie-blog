@@ -11,7 +11,7 @@ texto. Também por em pratica o fluxo de autenticação em APIs.
 Tarefas
 -------
 
-**Importante!**
+**Funcionalidades!**
 
 -   Documentação da Api
 
