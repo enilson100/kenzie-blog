@@ -16,8 +16,6 @@ Tarefas
 -   Documentação da Api
 
     [documentação](https://gitlab.com/-/snippets/2363840)
-    da API para conhecer seus endpoints e como trabalhar em cada um
-    deles.
 
 1.  Tem uma página de cadastro, com um formulário que recebe esses
     dados:
