@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="content first-content">
+        <div class="first-column">
+          <h2 class="title title-primary">BEM VINDO!</h2>
+          <p class="description description-primary"></p>
+          <p class="description description-primary">Logar na conta.</p>
+          <button id="firstLogin" class="btn btn-primary">Login</button>
+        </div>
+        <div class="second-column">
+          <h2 class="title title-second">Cadastrar</h2>
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-facebook-f"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-google-plus-g"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-linkedin-in"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <!-- social media -->
+          <p class="description description-second">
+            ou use o seu email para registrar:
+          </p>
+          <form type="submit" class="form">
+            <label class="label-input" for="">
+              <input type="text" name="username" placeholder="Name" />
+            </label>
+
+            <label class="label-input" for="">
+              <input type="email" name="email" placeholder="Email" />
+            </label>
+
+            <label class="label-input" for="">
+              <input type="text" name="avatarUrl" placeholder="Url foto" />
+            </label>
+
+            <label class="label-input" for="">
+              <input type="password" name="password" placeholder="Password" />
+            </label>
+
+            <button class="btn btn-second cadastrar">Cadastrar</button>
+          </form>
+        </div>
+        <!-- second column -->
+      </div>
+      <!-- first content -->
+      <div class="content second-content">
+        <div class="first-column">
+          <h2 class="title title-primary">Olá, Amigo!</h2>
+          <p class="description description-primary">
+            Acesse com email e senha
+          </p>
+          <p class="description description-primary">
+            e comece sua jornada com nos.
+          </p>
+          <button id="signup" class="btn btn-primary">Voltar</button>
+        </div>
+        <div class="second-column">
+          <h2 id="buttonLogin"class="title title-second">Login</h2>
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-facebook-f"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-google-plus-g"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-linkedin-in"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+          <!-- social media -->
+          <p class="description description-second">
+            ou use sua conta cadastrada:
+          </p>
+          <form id="formP" class="form">
+            <label class="label-input" for="">
+              <input type="email" name="email" placeholder="Email" />
+            </label>
+            <label class="label-input" for="">
+              <input type="password" name="password" placeholder="Password" />
+            </label>
+
+           <button id="buttonLogar" type="submit"class="btn btn-second">Login</button>
+          </form>
+        </div>
+      </div>   
+    </main>
+    <script type="module" src="./src/script.js"></script>
+  </body>
+</html>

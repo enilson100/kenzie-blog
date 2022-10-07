@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/styles/reset.css" />
+    <link rel="stylesheet" href="../src/styles/dashboard.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrap">
+        <div class="container_header"></div>
+        <button class="buttonSair">Sair</button>
+      </div>
+    </header>
+    <main>
+      <div class="container_form">
+        <form type="submit" action="#" class="form">
+          <textarea
+            name="content"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Comece seu post incrivel!"
+          ></textarea>
+          <button class="button_post" type="submit">Publicar</button>
+        </form>
+      </div>
+      <div>
+        <ul class="list_post"></ul>
+        <div class="divModal">
+          <form class="formModal" type="submit" action="#">
+            <div class="rowModal">
+              <button class="buttonFechar">
+                <img
+                  class="imgButton"
+                  src="../src/assets/img/1879560-200.png"
+                  alt=""
+                />
+              </button>
+            </div>
+            <h2>Fazer Alterações</h2>
+
+            <textarea name="content" id="text" cols="20" rows="5"></textarea>
+            <button class="buttonSalvar" type="submit">Salvar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="../src/js/pages/Dashboard.event.js"></script>
+    <script type="module" src="../src/js/controller/Dom.controller.js"></script>
+    <script type="module" src="../src/js/pages/dashboard.js"></script>
+  </body>
+</html>
